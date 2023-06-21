@@ -2,9 +2,9 @@ import cv2
 import mysql.connector
 
 db = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="Gp192!ewknkf",
+    host="your_hostname",
+    user="your_userid",
+    password="your_pwd",
     database="open_camera_links"
 )
 
